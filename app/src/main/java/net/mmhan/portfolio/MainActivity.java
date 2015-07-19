@@ -1,22 +1,18 @@
 package net.mmhan.portfolio;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import java.util.ArrayList;
-
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
 
 
     Button mSpotifyBtn, mScoresAppBtn, mLibraryAppBtn, mBuildItBiggerBtn, mXyzReaderBtn, mCapstoneBtn;
-
-    ArrayList<Button> buttons;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
